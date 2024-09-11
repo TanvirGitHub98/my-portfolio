@@ -3,21 +3,13 @@ import { FaNodeJs } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import {
   SiJavascript,
-  SiMui,
   SiReact,
   SiTailwindcss,
-  SiFigma,
-  SiAdobexd,
-  SiAdobephotoshop,
   SiMongodb,
   SiMysql,
   SiTypescript,
   SiGithub,
-  SiWordpress,
-  SiFirebase,
-  SiDocker,
   SiExpress,
-  SiNginx,
   SiAngular,
 } from "react-icons/si";
 export const TechStackList = [
@@ -58,82 +50,31 @@ export const TechStackList = [
   },
   {
     _id: 8,
-    name: "Nextjs",
-    icon: TbBrandNextjs,
-  },
-  {
-    _id: 9,
-    name: "React MUI",
-    icon: SiMui,
-  },
-  {
-    _id: 10,
     name: "Tailwind ",
     icon: SiTailwindcss,
   },
+
   {
-    _id: 11,
-    name: "Figma ",
-    icon: SiFigma,
-  },
-  {
-    _id: 12,
-    name: "Adobe XD ",
-    icon: SiAdobexd,
-  },
-  {
-    _id: 13,
-    name: "Photoshop ",
-    icon: SiAdobephotoshop,
-  },
-  {
-    _id: 14,
-    name: "React Native ",
-    icon: SiReact,
-  },
-  {
-    _id: 15,
-    name: "Node JS ",
-    icon: FaNodeJs,
-  },
-  {
-    _id: 16,
+    _id: 9,
     name: "Express JS ",
     icon: SiExpress,
   },
+
   {
-    _id: 17,
-    name: "Wordpress ",
-    icon: SiWordpress,
-  },
-  {
-    _id: 18,
+    _id: 10,
     name: "Mongodb ",
     icon: SiMongodb,
   },
   {
-    _id: 19,
+    _id: 11,
     name: "SQL ",
     icon: SiMysql,
   },
+
   {
-    _id: 20,
-    name: "Firebase ",
-    icon: SiFirebase,
-  },
-  {
-    _id: 21,
+    _id: 12,
     name: "Git / Github ",
     icon: SiGithub,
   },
-  {
-    _id: 22,
-    name: "Docker ",
-    icon: SiDocker,
-  },
-  {
-    _id: 23,
-    name: "Nginx ",
-    icon: SiNginx,
-  },
+
 ];
