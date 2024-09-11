@@ -25,23 +25,22 @@ const Menu = ({toggle}) => {
 
             </div>
             <div className='nav-link'>
-             <FcPortraitMode/> Work Experience
+             <FcReading /> Education
 
             </div>
+
             <div className='nav-link'>
              <FcBiotech/> Tech Stack
 
             </div>
-            <div className='nav-link'>
-             <FcReading /> Education
 
-            </div>
             <div className='nav-link'>
              <FcVideoProjector/> Projects
 
             </div>
+
             <div className='nav-link'>
-             <FcVoicePresentation /> Testimonial
+             <FcPortraitMode/> Work Experience
 
             </div>
             <div className='nav-link'>
@@ -70,24 +69,24 @@ const Menu = ({toggle}) => {
              <FcAbout title='About'/> 
 
             </div>
-            <div className='nav-link'>
-             <FcPortraitMode title='Work Experience'/>
 
-            </div>
-            <div className='nav-link'>
-             <FcBiotech title='Tech Stack'/> 
-
-            </div>
             <div className='nav-link'>
              <FcReading title='Education' /> 
 
             </div>
+
+            <div className='nav-link'>
+             <FcBiotech title='Tech Stack'/> 
+
+            </div>
+
             <div className='nav-link'>
              <FcVideoProjector title='Projects'/> 
 
             </div>
+
             <div className='nav-link'>
-             <FcVoicePresentation title='Testimonial' /> 
+             <FcPortraitMode title='Work Experience'/>
 
             </div>
             <div className='nav-link'>
